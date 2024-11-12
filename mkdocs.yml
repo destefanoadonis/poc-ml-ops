@@ -15,7 +15,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [ml_ops]
+          paths: [poc_ml_ops]
 theme:
   name: material
   feature:

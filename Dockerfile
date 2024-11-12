@@ -18,4 +18,4 @@ ADD . /app
 # Sync the project
 RUN uv sync --frozen
 
-CMD [ "python", "ml_ops/foo.py"]
+CMD [ "python", "poc_ml_ops/foo.py"]

@@ -42,10 +42,10 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["ml_ops"]
+py-modules = ["poc_ml_ops"]
 
 [tool.mypy]
-files = ["ml_ops"]
+files = ["poc_ml_ops"]
 disallow_untyped_defs = true
 disallow_any_unimported = true
 no_implicit_optional = true

@@ -1,4 +1,4 @@
-from ml_ops.foo import foo
+from poc_ml_ops.foo import foo
 
 
 def test_foo():
