@@ -1,0 +1,52 @@
+site_name: poc-ml-ops
+repo_url: https://github.com/destefanoadonis/poc-ml-ops
+site_url: https://destefanoadonis.github.io/poc-ml-ops
+site_description: Learning repo to better understand Adonis existing stack (i.e. Temporal, SQLMesh) applied to ML lifecycle.
+site_author: destefanoadnois
+edit_uri: edit/main/docs/
+repo_name: destefanoadonis/poc-ml-ops
+copyright: Maintained by <a href="https://destefanoadonis.com">destefanoadonis</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [ml_ops]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/destefanoadonis/poc-ml-ops
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/poc-ml-ops
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
